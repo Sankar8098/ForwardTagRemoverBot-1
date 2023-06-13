@@ -5,7 +5,7 @@ load_dotenv()
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    BOT_TOKEN = os.environ.get("BOT_TOKEN","6007679666:AAGj-MxoB8ethsDvVfyJf1Zi7hNwkf3Ll6c")
     SUPPORT = "https://t.me/Chatting_Spot"
     START_TEXT = """
 Hi [{}](tg://user?id={}) 
